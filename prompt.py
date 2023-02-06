@@ -7,7 +7,7 @@ from bson.json_util import dumps
 app = Flask(__name__)
 api = Api(app)
 
-
+#connection to the mongo server
 def connection():
     try:
         client = MongoClient(
